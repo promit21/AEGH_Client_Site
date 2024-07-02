@@ -1,8 +1,40 @@
-# React + Vite
+## Project Name: AEGH 
+## Live Link: https://doctor-house-system.web.app 
+Short description or introduction of the project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-> Table of Contents:
+## Features
+    Patient Interface:
+        Schedule appointments with preferred doctors.
+        View upcoming appointments and history.
 
-Currently, two official plugins are available:
+    Admin Panel:
+        Add new doctors with their specialties.
+        Update doctor information.
+        Delete doctors from the system.
+        View registered users and their appointments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+    Patient:
+        Navigate through the application to schedule appointments.
+        Manage appointments through the patient interface.
+    Admin:
+        Access the admin panel by logging in with admin credentials.
+        Perform CRUD operations on doctors (Add, Update, Delete).
+        View registered users and their appointments.
+
+## Technologies Used
+    Frontend:
+        React
+        React Router
+        Axios (for API requests)
+        Tailwind (for styling)
+    
+    Backend (Assumed API):
+        Node.js (Express framework)
+        MongoDB (for storing doctors and appointments)
+        Authorization System (for firebase)
+        Authentication System (JWT tokens for admin login)
+
+
+
